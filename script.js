@@ -1,3 +1,8 @@
+//put whole fetch inside event listener
+//search button on click
+// grab value from search button. not from input
+// pull out string from button and use event delegation
+// event.target.textContent => grab text of the city
 fetch(
   "http://api.openweathermap.org/geo/1.0/direct?q=New+Orleans&limit=5&appid=d6aac51f8f278c439b163e4e7767e456"
 )
